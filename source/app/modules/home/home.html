@@ -1,0 +1,15 @@
+<div class="container" ng-controller="HomeCtrl as ctrl">
+  <header>
+    <img src="images/logo.png" alt="Scaffold AngularJS">
+    <a ui-sref="login" class="button">{{'main.now' | translate}}</a>
+  </header>
+
+  <ui-view></ui-view>
+
+  <footer>
+    {{'footer.copy' | translate}}
+    <a href="#">{{'footer.terms' | translate}}</a>&nbsp;
+    <a href="#">{{'footer.politics' | translate}}</a>&nbsp;
+    <a href="#">{{'footer.sitemap' | translate}}</a>
+  </footer>
+</div>

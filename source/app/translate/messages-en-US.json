@@ -1,0 +1,25 @@
+{
+  "main": {
+    "error": {
+      "request": "Try Again!"
+    }
+  },
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "placeholder": {
+      "email": "Your email...",
+      "password": "Your password..."
+    },
+    "or": "or",
+    "enter": "Enter",
+    "signin": "Create your Account",
+    "facebook": "Login with Facebook"
+  },
+  "footer": {
+    "copy": "Scaffold AngularJS! © YEAR. All rights reserved.",
+    "terms": "Use Terms.",
+    "politics": "Privacy Politics.",
+    "sitemap": "Sitemap."
+  }
+}

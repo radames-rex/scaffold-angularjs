@@ -1,0 +1,40 @@
+<section class="content">
+  <section class="signin">
+    <div class="frame box-widget column">
+      <h4 class="signin-title">CRIE AGORA SUA CONTA!</h4>
+      <div class="row">
+        <div class="signin-form column">
+          <label for="">Nome Completo</label>
+          <input type="text" ng-model="ctrl.name">
+          <label for="">E-mail</label>
+          <input type="text" ng-model="ctrl.email">
+          <label for="">Senha</label>
+          <input type="text" ng-model="ctrl.password">
+          <label for="">Confirmar Senha</label>
+          <input type="text" ng-model="ctrl.repassword">
+          <fieldset>
+            <label for="">Receber informações por E-mail</label>
+            <input type="checkbox" ng-model="ctrl.newsletter">
+          </div>
+        </fieldset>
+        <div class="signin-form column">
+          <label for="">Data de Nascimento</label>
+          <input type="text" ng-model="ctrl.birthday">
+          <label for="">CPF</label>
+          <input type="text" ng-model="ctrl.cpf">
+          <label for="">Telefone/Celular</label>
+          <input type="text" ng-model="ctrl.phone">
+          <label for="">Endereço Completo</label>
+          <input type="text" ng-model="ctrl.address">
+          <fieldset>
+            <label for="">Endereço de Entrega Diferente</label>
+            <input type="checkbox" ng-model="ctrl.diff">
+          </fieldset>
+          <label for="" ng-if="ctrl.diff">Endereço para Entrega</label>
+          <input type="text" ng-model="ctrl.deliveryAdress" ng-if="ctrl.diff">
+          <button type="button" class="button">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

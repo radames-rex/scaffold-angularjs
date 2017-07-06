@@ -1,0 +1,77 @@
+.slides {
+	height: 230px;
+	background-color: #f3f3f3;
+
+	img {
+		height: 230px;
+		width: 100%;
+	}
+}
+
+.spotlights {
+	padding: 26px 0 0 0;
+
+	.row {
+		display: flex;
+		flex-direction: row;
+		padding: 18px 42px 0 42px;
+	  justify-content: flex-start;
+		flex-wrap: wrap;
+
+		.torneio {
+			text-align: center;
+	    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+	    padding: 24px;
+	    margin: 24px;
+	    border-radius: 4px;
+			width: 260px;
+			cursor: pointer;
+
+			&:active {
+				box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
+			}
+
+			&-title {
+				color: #4990E2;
+				font-size: 14px;
+			}
+
+			&-prize {
+				color: #555;
+				font-size: 14px;
+			}
+
+			img {
+				width: auto;
+				height: 100px;
+			}
+
+			p {
+				color: #D0011B;
+				font-size: 18px;
+			}
+
+			&-value {
+				font-size: 18px;
+
+				&-new {
+					color: #D0011B;
+				}
+			}
+
+			&-pass {
+				font-size: 24px;
+			}
+
+			&-limit {
+				font-size: 12px;
+				margin: 12px 0 0;
+
+				span {
+					font-weight: bold;
+				}
+			}
+
+		}
+	}
+}

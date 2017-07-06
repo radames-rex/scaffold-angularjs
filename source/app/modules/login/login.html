@@ -1,0 +1,15 @@
+<section class="content">
+  <section class="login">
+    <div class="frame box-widget column">
+      <img src="images/logo.png" alt="logo">
+      <label for="">{{'login.email' | translate}}</label>
+      <input type="text" name="ctrl.email" ng-model="ctrl.email" placeholder="{{'login.placeholder.email' | translate}}">
+      <label for="">{{'login.password' | translate}}</label>
+      <input type="text" name="ctrl.password" ng-model="ctrl.password" placeholder="{{'login.placeholder.password' | translate}}">
+      <button type="button" class="button-enter" ng-click="ctrl.login()">{{'login.enter' | translate}}</button>
+      <button type="button" class="button-signin" ui-sref="boom.signin">{{'login.signin' | translate}}</button>
+      <span>{{'login.or' | translate}}</span>
+      <button type="button" class="button-facebook">{{'login.facebook' | translate}}</button>
+    </div>
+  </section>
+</section>

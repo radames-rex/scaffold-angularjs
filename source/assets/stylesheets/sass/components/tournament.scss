@@ -1,0 +1,83 @@
+.tournament {
+	padding: 26px 0 0 0;
+
+  &-title {
+    text-align: center;
+    margin: 12px 0 24px;
+    padding: 8px;
+    font-size: 24px;
+    background-color: rgba(212, 126, 23, 0.5);
+  }
+
+  &-image {
+    width: 50vw;
+    padding: 4vw;
+    margin: 0 4vw 10vh;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &-details {
+    width: 50vw;
+    padding: 2vw 4vw;
+    margin: 0 4vw 10vh;
+    border-radius: 6px;
+    background: #f1f1f1;
+
+    &-info {
+      text-align: left;
+
+      span {
+        margin: 6px 0;
+
+        b {
+          color: #D0011B;
+        }
+      }
+
+      .prize {
+        font-size: 22px;
+        color: #101010;
+      }
+      .subcategory {
+        font-size: 16px;
+        color: #515151;
+        margin: 0 0 6px;
+      }
+      .value {
+        font-size: 20px;
+        color: #101010;
+      }
+      .enter {
+        font-size: 18px;
+        color: #515151;
+        text-transform: uppercase;
+      }
+      .pass {
+        font-size: 26px;
+        color: #26891a;
+        margin: 0 0 6px;
+      }
+      .opened {
+        font-size: 18px;
+        color: #515151;
+      }
+      .limit {
+        font-size: 18px;
+        color: #515151;
+      }
+    }
+
+    &-actions {
+      margin: 24px 0;
+
+      .button {
+        background-color: #D0011B;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+}

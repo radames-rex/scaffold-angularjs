@@ -1,0 +1,376 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit; }
+
+li {
+  list-style-type: none; }
+
+input {
+  border: 1px solid #999;
+  border-width: 0 0 1px;
+  padding: 8px 0;
+  margin: 0 0 8px;
+  font-size: 14px; }
+  input:focus {
+    outline: none !important;
+    border: 1px solid #d0011b;
+    border-width: 0 0 1px 0; }
+    input:focus::-webkit-input-placeholder {
+      opacity: 0; }
+
+label {
+  color: #d0011b; }
+
+button {
+  box-shadow: none;
+  border: none;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer; }
+  button:active {
+    opacity: 0.8; }
+  button:focus {
+    outline: none !important; }
+
+/* BASE */
+.row {
+  display: flex;
+  flex-direction: row; }
+
+.column {
+  display: flex;
+  flex-direction: column; }
+
+.content {
+  background-color: #f1f1f1; }
+
+.frame {
+  text-align: center;
+  height: 80vh;
+  background-color: #fff; }
+
+.box-widget {
+  border-radius: 4px;
+  border: 1px solid #e7e7e7;
+  padding: 0 20px; }
+
+@font-face {
+  font-family: 'SF NS';
+  src: url(../fonts/sf.ttf); }
+
+body {
+  font-family: "Verdana"; }
+
+header {
+  background-color: #D0011B;
+  width: 100%;
+  height: 8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+  header img {
+    height: 90px; }
+  header nav ul {
+    display: flex;
+    flex-direction: row; }
+    header nav ul li {
+      color: #fff;
+      padding: 12px 24px;
+      cursor: pointer; }
+      header nav ul li .icon {
+        vertical-align: sub;
+        margin: 0 8px 0 0;
+        height: 24px; }
+      header nav ul li:hover {
+        background-color: #D9091C; }
+    header nav ul .active {
+      background-color: #D9091C;
+      border: 1px solid #fff; }
+  header .button {
+    color: #005a96;
+    background-color: #f0d313;
+    border: solid;
+    border-color: #d47e17;
+    border-width: 0 0 2px;
+    padding: 10px;
+    display: table;
+    cursor: pointer; }
+    header .button:active {
+      background-color: #ffe42e;
+      border: none; }
+
+.auxbar {
+  border-top: 1px solid #D0011B;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 0;
+  height: 24px;
+  background-color: #fff;
+  z-index: 9; }
+  .auxbar span {
+    color: #D0011B;
+    margin: 0 12px 0 0; }
+  .auxbar .button {
+    color: #fff;
+    background-color: #D0011B;
+    border-radius: 4px;
+    padding: 4px;
+    vertical-align: sub;
+    margin: 0 36px 0 0;
+    border: solid;
+    border-color: #d47e17;
+    border-width: 0 0 2px; }
+    .auxbar .button img {
+      height: 14px;
+      vertical-align: inherit; }
+    .auxbar .button:active {
+      background-color: #D9091C;
+      border: none; }
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #e4e4e4;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding: 8px 0 0; }
+  footer a, footer a:active, footer a:hover, footer a:visited {
+    color: #D9091C; }
+
+.categories {
+  padding: 26px 0 0 0; }
+  .categories .row {
+    display: flex;
+    flex-direction: row;
+    padding: 18px 42px 0 42px;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+    .categories .row .torneio {
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+      padding: 24px;
+      margin: 24px;
+      border-radius: 4px;
+      width: 260px;
+      cursor: pointer; }
+      .categories .row .torneio:active {
+        box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5); }
+      .categories .row .torneio-title {
+        color: #4990E2;
+        font-size: 14px; }
+      .categories .row .torneio-prize {
+        color: #555;
+        font-size: 14px; }
+      .categories .row .torneio img {
+        width: auto;
+        height: 100px; }
+      .categories .row .torneio p {
+        color: #D0011B;
+        font-size: 18px; }
+      .categories .row .torneio-value {
+        font-size: 18px; }
+        .categories .row .torneio-value-new {
+          color: #D0011B; }
+      .categories .row .torneio-pass {
+        font-size: 24px; }
+      .categories .row .torneio-limit {
+        font-size: 12px;
+        margin: 12px 0 0; }
+        .categories .row .torneio-limit span {
+          font-weight: bold; }
+
+.login {
+  margin: 0 auto;
+  padding: 8px 24px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: #d0011b; }
+  .login img {
+    height: 200px;
+    margin: 0 auto; }
+  .login .button-enter {
+    background-color: #d0011b;
+    color: #fff; }
+  .login .button-signin {
+    background-color: #fff;
+    border: 2px solid #d0011b;
+    color: #d0011b; }
+  .login .button-facebook {
+    background-color: #3B5998;
+    color: #fff; }
+  .login span {
+    margin: 0 auto; }
+
+.signin {
+  margin: 0 auto;
+  padding: 8px 24px;
+  width: 90vw;
+  color: #d0011b; }
+  .signin-title {
+    text-align: center;
+    margin: 12px 0 24px;
+    padding: 6vh;
+    font-size: 24px;
+    background-color: #d0011b;
+    color: #fff; }
+  .signin-form {
+    width: 50vw;
+    padding: 4vw;
+    text-align: left; }
+    .signin-form .button {
+      background-color: #D0011B;
+      color: #fff; }
+
+.slides {
+  height: 230px;
+  background-color: #f3f3f3; }
+  .slides img {
+    height: 230px;
+    width: 100%; }
+
+.spotlights {
+  padding: 26px 0 0 0; }
+  .spotlights .row {
+    display: flex;
+    flex-direction: row;
+    padding: 18px 42px 0 42px;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+    .spotlights .row .torneio {
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+      padding: 24px;
+      margin: 24px;
+      border-radius: 4px;
+      width: 260px;
+      cursor: pointer; }
+      .spotlights .row .torneio:active {
+        box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5); }
+      .spotlights .row .torneio-title {
+        color: #4990E2;
+        font-size: 14px; }
+      .spotlights .row .torneio-prize {
+        color: #555;
+        font-size: 14px; }
+      .spotlights .row .torneio img {
+        width: auto;
+        height: 100px; }
+      .spotlights .row .torneio p {
+        color: #D0011B;
+        font-size: 18px; }
+      .spotlights .row .torneio-value {
+        font-size: 18px; }
+        .spotlights .row .torneio-value-new {
+          color: #D0011B; }
+      .spotlights .row .torneio-pass {
+        font-size: 24px; }
+      .spotlights .row .torneio-limit {
+        font-size: 12px;
+        margin: 12px 0 0; }
+        .spotlights .row .torneio-limit span {
+          font-weight: bold; }
+
+.tournament {
+  padding: 26px 0 0 0; }
+  .tournament-title {
+    text-align: center;
+    margin: 12px 0 24px;
+    padding: 8px;
+    font-size: 24px;
+    background-color: rgba(212, 126, 23, 0.5); }
+  .tournament-image {
+    width: 50vw;
+    padding: 4vw;
+    margin: 0 4vw 10vh; }
+    .tournament-image img {
+      max-width: 100%; }
+  .tournament-details {
+    width: 50vw;
+    padding: 2vw 4vw;
+    margin: 0 4vw 10vh;
+    border-radius: 6px;
+    background: #f1f1f1; }
+    .tournament-details-info {
+      text-align: left; }
+      .tournament-details-info span {
+        margin: 6px 0; }
+        .tournament-details-info span b {
+          color: #D0011B; }
+      .tournament-details-info .prize {
+        font-size: 22px;
+        color: #101010; }
+      .tournament-details-info .subcategory {
+        font-size: 16px;
+        color: #515151;
+        margin: 0 0 6px; }
+      .tournament-details-info .value {
+        font-size: 20px;
+        color: #101010; }
+      .tournament-details-info .enter {
+        font-size: 18px;
+        color: #515151;
+        text-transform: uppercase; }
+      .tournament-details-info .pass {
+        font-size: 26px;
+        color: #26891a;
+        margin: 0 0 6px; }
+      .tournament-details-info .opened {
+        font-size: 18px;
+        color: #515151; }
+      .tournament-details-info .limit {
+        font-size: 18px;
+        color: #515151; }
+    .tournament-details-actions {
+      margin: 24px 0; }
+      .tournament-details-actions .button {
+        background-color: #D0011B;
+        color: #fff;
+        cursor: pointer; }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="24px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>categorias</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.3333333,8.54925362 L23.3333333,1.99702435 C23.3333333,0.894098258 22.4330012,0 21.335673,0 L6.66432699,0 C5.56104966,0 4.66666667,0.888686983 4.66666667,1.99702435 L4.66666667,8.54925362 L4.66666667,2.12172573 L6.06799711,2.12172573 C6.40497087,1.49011824 7.07035736,1.06086287 7.83612061,1.06086287 L20.1638794,1.06086287 C20.9261552,1.06086287 21.592648,1.49044257 21.9307954,2.12172573 L23.3333333,2.12172573 L23.3333333,8.54925362 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18.6666667" height="8.54925362" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M25.6666667,11.7318422 L25.6666667,5.17961295 C25.6666667,4.07668686 24.7804648,3.1825886 23.6570847,3.1825886 L4.34291526,3.1825886 C3.23305381,3.1825886 2.33333333,4.07127558 2.33333333,5.17961295 L2.33333333,11.7318422 L2.33333333,5.30431433 L3.73369996,5.30431433 C4.06928971,4.67270684 4.73194334,4.24345146 5.49456145,4.24345146 L22.5054385,4.24345146 C23.2613793,4.24345146 23.9263659,4.67303116 24.2641863,5.30431433 L25.6666667,5.30431433 L25.6666667,11.7318422 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.3333333" height="8.54925362" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="6.3651772" width="28" height="16.9738059" rx="2"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="16.9738059" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+        <g id="destaque_lista_sem_credito" transform="translate(-174.000000, -623.000000)" stroke="#fff" fill="#FFFFFF">
+            <g id="Tab-bar" transform="translate(-1.000000, 610.000000)">
+                <g id="TabBar-Mais" transform="translate(0.000000, 0.050847)">
+                    <g id="categorias" transform="translate(175.000000, 13.322034)">
+                        <use id="Rectangle-167" mask="url(#mask-2)" stroke-width="4" opacity="0.64" xlink:href="#path-1"></use>
+                        <use id="Rectangle-166" mask="url(#mask-4)" stroke-width="4" opacity="0.801277995" xlink:href="#path-3"></use>
+                        <use id="Rectangle-164" stroke-opacity="0.676092618" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

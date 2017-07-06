@@ -1,0 +1,35 @@
+.login {
+  margin: 0 auto;
+  padding: 8px 24px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: #d0011b;
+
+  img {
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .button {
+    &-enter {
+      background-color: #d0011b;
+      color: #fff;
+    }
+
+    &-signin {
+      background-color: #fff;
+      border: 2px solid #d0011b;
+      color: #d0011b;
+    }
+
+    &-facebook {
+      background-color: #3B5998;
+      color: #fff;
+    }
+  }
+
+  span {
+    margin: 0 auto;
+  }
+}
