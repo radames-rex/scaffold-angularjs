@@ -1,0 +1,73 @@
+PACKAGE.JSON - NODE MODULES - NPM
+------------------------------------------------------------------------------------------------------------
+  bower => gestor de depenências Front - end
+  gulp => automatizador de taregas
+  gulp-concat => concatena arquivos
+  gulp-server-livereload => roda um webserver local com live reload
+  gulp-autoprefixer => coloca prefixos CSS para diversos motores de browser
+  gulp-angular-templatecache => concatena e registra Templates AngularJS em $templateCache
+  del => remove arquivos e diretórios
+  lodash => biblioteca utilitária para JS
+  gulp-cssnano => minifica CSS
+  gulp-filter => filtra arquivos em formato Vinyl
+  gulp-flatten => remove e ignora paths relativos dos arquivos
+  gulp-eslint => task para rodar ESLint
+  gulp-load-plugins => carrega automaticamente plugins gulp em package.json
+  gulp-size => exibe tamanho do projeto detalhadamente
+  gulp-uglify => minificac JavaScript
+  gulp-useref => concatena e minifica arquivos em referências CSS e JS marcadas para uma unica só
+  gulp-util => utils gulp
+  gulp-ng-annotate => cria anotações de dependências do AngularJS para permitir minificação
+  gulp-replace => substitui Strings nos arquivos
+  gulp-rename => renomeia arquivos
+  gulp-rev => cria um hash no nome do arquivo para fins de CACHE
+  gulp-rev-replace => reescreve arquivos com filename modificado pelo rev
+  gulp-htmlmin => minifica HTML
+  gulp-inject => injeta referências à arquivos CSS e JS em seu index HTML
+  gulp-protractor => helper para Protractor
+  gulp-sourcemaps => cria sourcemaps para arquivos minificados para facilitar debug
+  gulp-sass => compila SASS
+  gulp-angular-filesort => usado em conjunto com gulp-inject para ordenar as dependências angular corretamente
+  main-bower-files => obtem todos os arquivos principais das dependências gerenciadas pelo Bower
+  wiredep => injeta referências às dependêcncias gerenciadas pelo Bower em seu index HTML
+  karma => test runner para JS
+  karma-jasmine => adpatador para Jasmine framework
+  karma-phantomjs-launcher => launcher karma para o broweser PhantomJS
+  phantomjs => Browser sem cabeça kkkk (Headless WebKit)
+  karma-angular-filesort => ordena arquivos AngularJS antes do Karma rodar
+  karma-phantomjs-shim => adiciona Shim para o PhantomJS
+  karma-coverage => gera cobertura de testes
+  karma-ng-html2js-preprocessor => compila templates AngularJS em tempo de processamento
+  browser-sync => live CSS reload e sincroniza os browsers abertos
+  browser-sync-spa => single page para o app
+  http-proxy-middleware => middleware para conecta browser-sync
+  chalk => terminal colorido
+  uglify-save-license => licensa para arquivos minificados
+
+------------------------------------------------------------------------------------------------------------
+BOWER.JSON - BOWER COMPONENTS - BOWER
+------------------------------------------------------------------------------------------------------------
+  jquery => biblioteca utilitária JS
+  angular => framework JS
+  angular-cookies => permite leitura/escrita aos cookies do Browser com AngularJS
+  angular-aria => permite configurar atributos ARIA para AngularJS
+  angular-ui-router => melhor configurador de Rotas para AngularJS
+  angular-translate => permite 18n com AngularJS
+  angular-translate-loader-static-files => carrega json para identificar 18n para AngularJS
+  angular-toastr => toast para AngularJS
+  font-awesome => biblioteca de ícones
+  components-font-awesome => repositório Shim para font-awesome
+  simple-line-icons => biblioteca de ícones
+  bootstrap-switch => botão switch bootstrap
+  bootstrap-sass => Bootstrap em Sass
+  js-cookie => API simples para manipulação de cookies do Browser
+  blockUI => Bloco UI para mensagens e notificações
+  jquery-slimscroll => plugin Jquery para transformar div em bloco com scrollbar customizável
+  jquery-validation => plugin Jquery para validação
+  select2 => select box customizável
+  jquery-backstretch => plugin Jquery para adicionar dinamicamente background/slide no fundo de um elemento
+  spin.js => spin para loading/request
+  jquery.inputmask => plugin Jquery para criar máscaras em campos HTML
+  ng-table => facilita criação de tabelas para listas com AngularJS
+  bootbox => alerts, confirms e modais customizáveis
+  angular-mocks => permite que o test runner use os mocks do AngularJS
